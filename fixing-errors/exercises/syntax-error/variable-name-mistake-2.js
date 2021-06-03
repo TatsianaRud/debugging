@@ -1,9 +1,9 @@
 'use strict';
 
 /*
-  environment:
+  environment:Firefox
 
-  name:
+  name: 
   message:
 
   callstack:
@@ -13,6 +13,8 @@
   the mistake:
 
   the fix(es):
+  //THERE IS NO ERROR but on line 19 is used reserved word and its unrecommended
 */
 
 const undefined = 'three';
+console.log(undefined);

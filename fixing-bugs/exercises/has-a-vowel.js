@@ -8,15 +8,17 @@
   - given their input has at least one vowel, they are told so
 
   test cases:
-    '' -> '"" has no vowels'
-    'xyz' -> '"xyz" has no vowels'
-    '!.-.!' -> '"!.-.!" has no vowels'
-    'aeiou' -> '"aeiou" has at least one vowel'
-    'hi' -> '"hi" has at least one vowel'
+    '' -> '"" has no vowels'-
+    'xyz' -> '"xyz" has no vowels'-
+    '!.-.!' -> '"!.-.!" has no vowels'-
+    'aeiou' -> '"aeiou" has at least one vowel'-
+    'hi' -> '"hi" has at least one vowel'-
 
   the bug:
+  when you enter a String  with a vowels ,progamm give result" has no vowel" and apposite
 
   your fix:
+  invert the value of variable hasAVowel 
 
 */
 
@@ -27,10 +29,10 @@ while (characters === null) {
 
 const vowels = 'aeiouAEIOU';
 
-let hasAVowel = true;
+let hasAVowel = false;
 for (const char of characters) {
   if (vowels.includes(char)) {
-    hasAVowel = false;
+    hasAVowel = true;
     break;
   }
 }

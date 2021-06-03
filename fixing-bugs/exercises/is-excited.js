@@ -8,15 +8,15 @@
   - given their input does not have "!", it is not excited
 
   test cases:
-    '' -> '"" is not excited'
-    'hello' -> '"hello" is not excited'
-    '!' -> '"!" is excited'
-    '!yo' -> '"!yo"" is excited'
-    '!yo!' -> '"!yo!" is excited'
+    '' -> '"" is not excited' +
+    'hello' -> '"hello" is not excited'-
+    '!' -> '"!" is excited'-
+    '!yo' -> '"!yo"" is excited'+
+    '!yo!' -> '"!yo!" is excited'+
 
-  the bug:
+  the bug:in iteration inside of if statement condition was if char doesnt include ! the result gives not excited
 
-  your fix:
+  your fix:make condition equal (delete exclam.mark)
 
 */
 
@@ -29,7 +29,7 @@ while (input === null) {
 
 let isExcited = false;
 for (const char of input) {
-  if (char !== '!') {
+  if (char == '!') {
     isExcited = true;
     break;
   }

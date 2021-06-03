@@ -8,14 +8,17 @@
   - given the user input is longer than 4 characters, the loop exits
 
   test cases:
-    null -> 'you canceled'
-    'abcde' -> 'abcde'
+    null -> 'you canceled' +
+    'abcde' -> 'abcde'-
     'javascript' -> 'javascript'
     'you canceled' -> 'you canceled'
 
-  the bug:
+  the bug: if u click cancel programm doesn give 'you canceled'
+  if you enter more then 4 charact. programm ask to enter more then 4 ch. again
 
   your fix:
+  add alert message after if (input===null)
+  in else if statment we add input.leghth
 
 */
 
@@ -28,9 +31,10 @@ while (prompting) {
   );
   if (input === null) {
     prompting = false;
-    input = 'you canceled';
-  } else if (input > 4) {
+    alert ('you canceled');
+  } else if (input.length > 4) {
     prompting = false;
+    alert(input);
   }
 }
 
