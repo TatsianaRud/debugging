@@ -15,8 +15,10 @@
   the fix(es):
 */
 
-const max = 12;
+const max = "Senait";
 
 for (const step of max) {
-  console.log(step);
-}
+
+console.log(step)
+ }
+

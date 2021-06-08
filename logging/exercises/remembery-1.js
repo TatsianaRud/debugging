@@ -22,11 +22,12 @@ let points = 3;
 const guess1 = prompt('Player 1, enter your first guess:');
 if (guess1 !== phrase) {
   points = points - 1;
+  console.log("here minus 1 point from three")
 
   const guess2 = prompt('Player 1, enter your second guess:');
   if (guess2 !== phrase) {
     points = points - 1;
-
+   console.log("here minus 1 point from three")
     const guess3 = prompt('Player 1, enter your third guess:');
     if (guess3 !== phrase) {
       points = points - 1;
