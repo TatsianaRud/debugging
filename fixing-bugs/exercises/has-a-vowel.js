@@ -14,11 +14,16 @@
     'aeiou' -> '"aeiou" has at least one vowel'-
     'hi' -> '"hi" has at least one vowel'-
 
-  the bug:
-  when you enter a String  with a vowels ,progamm give result" has no vowel" and apposite
+  --- experiments ---
 
-  your fix:
-  invert the value of variable hasAVowel 
+  1. FAILING:
+    TRY:
+    PREDICT:
+    IT DID:
+    EXPLAIN:
+
+  --- lessons learned ---
+
 
 */
 
@@ -42,12 +47,3 @@ if (hasAVowel) {
 } else {
   alert('"' + characters + '" has no vowels');
 }
-
-/* experiments
-
-  name:
-    predict:
-    actual:
-    why:
-
-*/

@@ -13,12 +13,16 @@
     'javascript' -> 'javascript'
     'you canceled' -> 'you canceled'
 
-  the bug: if u click cancel programm doesn give 'you canceled'
-  if you enter more then 4 charact. programm ask to enter more then 4 ch. again
+  --- experiments ---
 
-  your fix:
-  add alert message after if (input===null)
-  in else if statment we add input.leghth
+  1. FAILING:
+    TRY:
+    PREDICT:
+    IT DID:
+    EXPLAIN:
+
+  --- lessons learned ---
+
 
 */
 
@@ -39,12 +43,3 @@ while (prompting) {
 }
 
 alert(input);
-
-/* experiments
-
-  name:
-    predict:
-    actual:
-    why:
-
-*/

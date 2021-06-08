@@ -12,13 +12,17 @@
     'hi' -> 'you entered "hi"'
     'JavaScript' -> 'you entered "JavaScript"'
 
-  the bug:
-  in if u click cancel or empty string - programm finished
-  if u enter anything its not shows value of input
+  --- experiments ---
 
-  your fix:
-  &&->changed to ||,break_->continue
-  added else condition and break after;
+  1. FAILING:
+    TRY:
+    PREDICT:
+    IT DID:
+    EXPLAIN:
+
+  --- lessons learned ---
+
+
 */
 
 let message = 'you entered "';
@@ -37,12 +41,3 @@ while (true) {
 }
 
 alert(message);
-
-/* experiments
-
-  name:
-    predict:
-    actual:
-    why:
-
-*/
